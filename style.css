@@ -1,0 +1,22 @@
+#container {
+  display: flex;
+}
+
+#list {
+  display: grid;
+  justify-content: start;
+  align-content: start;
+  column-gap: 0.5em;
+  row-gap: 0;
+  border: solid blue 1px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-inline: auto;
+}
+
+#editor {
+  border: solid blue 1px;
+}
